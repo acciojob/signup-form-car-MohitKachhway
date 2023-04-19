@@ -14,12 +14,12 @@
 
 		<div>
 			<label for="name">Name*</label>
-			<input type="text" id="name" name="name" required>
+			<input type="text" id="name" name="name" required placeholder="Name">
 		</div>
 
 		<div>
 			<label for="email">Email*</label>
-			<input type="email" id="email" name="email" required>
+			<input type="email" id="email" name="email" required placeholder="Email">
 		</div>
 
 		<div>
@@ -32,8 +32,8 @@
 
 		<div>
 			<label for="brand">Car Brand*</label>
-			<select name="carbrand" id="brand" required>
-				<option value="">--Please choose an option--</option>
+			<select  id="brand" required>
+				<option value="" selected disabled>--Please choose an option--</option>
 				<option value="BMW">BMW</option>
 				<option value="Audi">Audi</option>
 				<option value="Mercedez">Mercedez</option>
@@ -43,17 +43,17 @@
 
 		<div>
 			<label for="age">Age*</label>
-			<input type="number" id="age" name="age" required>
+			<input type="number" id="age" name="age" required placeholder="Age">
 		</div>
 
 		<div>
 			<label for="dob">DOB*</label>
-			<input type="date" id="dob" name="dob">
+			<input type="date" id="dob" name="dob" required>
 		</div>
 
 		<div>
 			<label for="phonenumber">Phone Number</label>
-			<input type="tel" id="phonenumber" name="phonenumber" placeholder="xxx-xxx-xxxx">
+			<input type="number" id="phonenumber" name="phonenumber" placeholder="xxx-xxx-xxxx" placeholder="Password">
 		</div>
 
 		<div>
@@ -68,8 +68,7 @@
 
 		<div>
 			
-			<input type="submit" id="submit" name="submit">
-			<label for="submit"></label>
+			<button type="submit">Submit</button>
 		</div>
 
 
